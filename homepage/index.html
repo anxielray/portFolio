@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raymond Ogwel | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add some basic styling for layout */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-top: 50px;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: #007acc;
+        }
+        .section {
+            max-width: 800px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #007acc;
+            margin-bottom: 10px;
+        }
+        .section p, .project-item {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #007acc;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: center;
+            background-color: #007acc;
+            color: #fff;
+            width: 100%;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Raymond Ogwel</h1>
+        <p>Full Stack Developer | Data Analyst | AI Enthusiast</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Raymond Ogwel, a full stack developer with expertise in Go, JavaScript, and AI.
+            With a background in data analytics and a passion for backend systems, I create efficient, scalable solutions for modern web applications.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Project 1: ATM Management System</h3>
+            <p>A C-based application for managing user accounts, transactions, and secure data storage. Implemented memory management, Makefile setup, and CLI interface.</p>
+        </div>
+        <div class="project-item">
+            <h3>Project 2: Digital Portfolio</h3>
+            <p>Built a digital portfolio from scratch using Go for backend and JavaScript for frontend, implementing dynamic content and responsive design.</p>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">Go</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Data Analysis</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">AI Development</span>
+            <!-- Add more skills here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, please feel free to reach out via email:</p>
+        <p><a href="mailto:raymond.ogwel@example.com">raymond.ogwel@example.com</a></p>
+        <p>or connect with me on <a href="https://linkedin.com/in/raymondogwel" target="_blank">LinkedIn</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Raymond Ogwel | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
